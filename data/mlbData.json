@@ -1,0 +1,242 @@
+[
+  {
+    "teamName": "Arizona Diamondbacks",
+    "league": "National League",
+    "division": "West",
+    "logoImgUrl": "https://cdn.bleacherreport.net/images/team_logos/328x328/arizona_diamondbacks,_national_league,_west.png",
+    "numFavorited": 0,
+    "wl": "-"
+  },
+  {
+    "teamName": "Atlanta Braves",
+    "league": "National League",
+    "division": "East",
+    "logoImgUrl": "https://cdn.bleacherreport.net/images/team_logos/328x328/atlanta_braves,_national_league,_east.png",
+    "numFavorited": 0,
+    "wl": "-"
+  },
+  {
+    "teamName": "Baltimore Orioles",
+    "league": "American League",
+    "division": "East",
+    "logoImgUrl": "https://cdn.bleacherreport.net/images/team_logos/328x328/baltimore_orioles,_american_league,_east.png",
+    "numFavorited": 0,
+    "wl": "-"
+  },
+  {
+    "teamName": "Boston Red Sox",
+    "league": "American League",
+    "division": "East",
+    "logoImgUrl": "https://cdn.bleacherreport.net/images/team_logos/328x328/boston_red_sox,_american_league,_east.png",
+    "numFavorited": 0,
+    "wl": "-"
+  },
+  {
+    "teamName": "Chicago White Sox",
+    "league": "American League",
+    "division": "Central",
+    "logoImgUrl": "https://cdn.bleacherreport.net/images/team_logos/328x328/chicago_white_sox,_american_league,_central.png",
+    "numFavorited": 0,
+    "wl": "-"
+  },
+  {
+    "teamName": "Chicago Cubs",
+    "league": "National League",
+    "division": "Central",
+    "logoImgUrl": "https://cdn.bleacherreport.net/images/team_logos/328x328/chicago_cubs,_national_league,_central.png",
+    "numFavorited": 0,
+    "wl": "-"
+  },
+  {
+    "teamName": "Cincinnati Reds",
+    "league": "National League",
+    "division": "Central",
+    "logoImgUrl": "https://cdn.bleacherreport.net/images/team_logos/328x328/cincinnati_reds,_national_league,_central.png",
+    "numFavorited": 0,
+    "wl": "-"
+  },
+  {
+    "teamName": "Cleveland Indians",
+    "league": "American League",
+    "division": "Central",
+    "logoImgUrl": "https://cdn.bleacherreport.net/images/team_logos/328x328/cleveland_indians,_american_league,_central.png",
+    "numFavorited": 0,
+    "wl": "-"
+  },
+  {
+    "teamName": "Colorado Rockies",
+    "league": "National League",
+    "division": "West",
+    "logoImgUrl": "https://cdn.bleacherreport.net/images/team_logos/328x328/colorado_rockies,_national_league,_west.png",
+    "numFavorited": 0,
+    "wl": "-"
+  },
+  {
+    "teamName": "Detroit Tigers",
+    "league": "American League",
+    "division": "Central",
+    "logoImgUrl": "https://cdn.bleacherreport.net/images/team_logos/328x328/detroit_tigers,_american_league,_central.png",
+    "numFavorited": 0,
+    "wl": "-"
+  },
+  {
+    "teamName": "Houston Astros",
+    "league": "American League",
+    "division": "West",
+    "logoImgUrl": "https://cdn.bleacherreport.net/images/team_logos/328x328/houston_astros,_american_league,_west.png",
+    "numFavorited": 0,
+    "wl": "-"
+  },
+  {
+    "teamName": "Kansas City Royals",
+    "league": "American League",
+    "division": "Central",
+    "logoImgUrl": "https://cdn.bleacherreport.net/images/team_logos/328x328/kansas_city_royals,_american_league,_central.png",
+    "numFavorited": 0,
+    "wl": "-"
+  },
+  {
+    "teamName": "Los Angeles Angels",
+    "league": "American League",
+    "division": "West",
+    "logoImgUrl": "https://cdn.bleacherreport.net/images/team_logos/328x328/los_angeles_angels,_american_league,_west.png",
+    "numFavorited": 0,
+    "wl": "-"
+  },
+  {
+    "teamName": "Los Angeles Dodgers",
+    "league": "National League",
+    "division": "West",
+    "logoImgUrl": "https://cdn.bleacherreport.net/images/team_logos/328x328/los_angeles_dodgers,_national_league,_west.png",
+    "numFavorited": 0,
+    "wl": "-"
+  },
+  {
+    "teamName": "Miami Marlins",
+    "league": "National League",
+    "division": "East",
+    "logoImgUrl": "https://cdn.bleacherreport.net/images/team_logos/328x328/miami_marlins,_national_league,_east.png",
+    "numFavorited": 0,
+    "wl": "-"
+  },
+  {
+    "teamName": "Milwaukee Brewers",
+    "league": "National League",
+    "division": "Central",
+    "logoImgUrl": "https://cdn.bleacherreport.net/images/team_logos/328x328/milwaukee_brewers,_national_league,_central.png",
+    "numFavorited": 0,
+    "wl": "-"
+  },
+  {
+    "teamName": "Minnesota Twins",
+    "league": "American League",
+    "division": "Central",
+    "logoImgUrl": "https://cdn.bleacherreport.net/images/team_logos/328x328/minnesota_twins,_american_league,_central.png",
+    "numFavorited": 0,
+    "wl": "-"
+  },
+  {
+    "teamName": "New York Yankees",
+    "league": "American League",
+    "division": "East",
+    "logoImgUrl": "https://cdn.bleacherreport.net/images/team_logos/328x328/new_york_yankees,_american_league,_east.png",
+    "numFavorited": 0,
+    "wl": "-"
+  },
+  {
+    "teamName": "New York Mets",
+    "league": "National League",
+    "division": "East",
+    "logoImgUrl": "https://cdn.bleacherreport.net/images/team_logos/328x328/new_york_mets,_national_league,_east.png",
+    "numFavorited": 0,
+    "wl": "-"
+  },
+  {
+    "teamName": "Oakland Athletics",
+    "league": "American League",
+    "division": "West",
+    "logoImgUrl": "https://cdn.bleacherreport.net/images/team_logos/328x328/oakland_athletics,_american_league,_west.png",
+    "numFavorited": 0,
+    "wl": "-"
+  },
+  {
+    "teamName": "Philadelphia Phillies",
+    "league": "National League",
+    "division": "East",
+    "logoImgUrl": "https://cdn.bleacherreport.net/images/team_logos/328x328/philadelphia_phillies,_national_league,_east.png",
+    "numFavorited": 0,
+    "wl": "-"
+  },
+  {
+    "teamName": "Pittsburgh Pirates",
+    "league": "National League",
+    "division": "Central",
+    "logoImgUrl": "https://cdn.bleacherreport.net/images/team_logos/328x328/pittsburgh_pirates,_national_league,_central.png",
+    "numFavorited": 0,
+    "wl": "-"
+  },
+  {
+    "teamName": "San Diego Padres",
+    "league": "National League",
+    "division": "West",
+    "logoImgUrl": "https://cdn.bleacherreport.net/images/team_logos/328x328/san_diego_padres,_national_league,_west.png",
+    "numFavorited": 0,
+    "wl": "-"
+  },
+  {
+    "teamName": "San Francisco Giants",
+    "league": "National League",
+    "division": "West",
+    "logoImgUrl": "https://cdn.bleacherreport.net/images/team_logos/328x328/san_francisco_giants,_national_league,_west.png",
+    "numFavorited": 0,
+    "wl": "-"
+  },
+  {
+    "teamName": "Seattle Mariners",
+    "league": "American League",
+    "division": "West",
+    "logoImgUrl": "https://cdn.bleacherreport.net/images/team_logos/328x328/seattle_mariners,_american_league,_west.png",
+    "numFavorited": 0,
+    "wl": "-"
+  },
+  {
+    "teamName": "St. Louis Cardinals",
+    "league": "National League",
+    "division": "Central",
+    "logoImgUrl": "https://cdn.bleacherreport.net/images/team_logos/328x328/st._louis_cardinals,_national_league,_central.png",
+    "numFavorited": 0,
+    "wl": "-"
+  },
+  {
+    "teamName": "Tampa Bay Rays",
+    "league": "American League",
+    "division": "East",
+    "logoImgUrl": "https://cdn.bleacherreport.net/images/team_logos/328x328/tampa_bay_rays,_american_league,_east.png",
+    "numFavorited": 0,
+    "wl": "-"
+  },
+  {
+    "teamName": "Texas Rangers",
+    "league": "American League",
+    "division": "West",
+    "logoImgUrl": "https://cdn.bleacherreport.net/images/team_logos/328x328/texas_rangers,_american_league,_west.png",
+    "numFavorited": 0,
+    "wl": "-"
+  },
+  {
+    "teamName": "Toronto Blue Jays",
+    "league": "American League",
+    "division": "East",
+    "logoImgUrl": "https://cdn.bleacherreport.net/images/team_logos/328x328/toronto_blue_jays,_american_league,_east.png",
+    "numFavorited": 0,
+    "wl": "-"
+  },
+  {
+    "teamName": "Washington Nationals",
+    "league": "National League",
+    "division": "East",
+    "logoImgUrl": "https://cdn.bleacherreport.net/images/team_logos/328x328/washington_nationals,_national_league,_east.png",
+    "numFavorited": 0,
+    "wl": "-"
+  }
+]
