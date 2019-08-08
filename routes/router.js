@@ -15,7 +15,7 @@ router.route('/users').get(authController.getUsers);
 
 
 // router for sports
-router.route('/sports').get(sportsController.getSports);
+router.route('/sports').get(authController.isLoggedIn, sportsController.getSports);
 
 // router for mlb
 router
