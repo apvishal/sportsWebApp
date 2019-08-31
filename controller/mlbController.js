@@ -23,31 +23,31 @@ exports.createNewTeam = async (req,res,next) => {
     }
 };
 
-exports.deleteTeam = async (req,res,next) => {
-    try {
-        // req.params will have the parameters provided, in this case, id...
-        const team = await MLB.findByIdAndDelete(req.params.id);
-        if (!team) {
-            // return res.status(404).json({status: 'fail', message: 'no team found with the specified id...'});
-           return next(new Error("cant delete a non existent id..."));
-        }
-        res.status(204).json({status: 'success', message: team});
-    } catch( err) {
-        res.status(404).json({status: 'failure', message: err});
-    }
-};
+// exports.deleteTeam = async (req,res,next) => {
+//     try {
+//         // req.params will have the parameters provided, in this case, id...
+//         const team = await MLB.findByIdAndDelete(req.params.id);
+//         if (!team) {
+//             // return res.status(404).json({status: 'fail', message: 'no team found with the specified id...'});
+//            return next(new Error("cant delete a non existent id..."));
+//         }
+//         res.status(204).json({status: 'success', message: team});
+//     } catch( err) {
+//         res.status(404).json({status: 'failure', message: err});
+//     }
+// };
 
-exports.getTeam = async (req,res,next) => {
-    try {
-        console.log(req.params.id);
-        const obj = await MLB.findById(req.params.id);
+// exports.getTeam = async (req,res,next) => {
+//     try {
+//         console.log(req.params.id);
+//         const obj = await MLB.findById(req.params.id);
 
-        if (!obj) {
-        return res.status(404).json({status: 'fail', message: 'no team found with the specified id...'});
-        }
+//         if (!obj) {
+//         return res.status(404).json({status: 'fail', message: 'no team found with the specified id...'});
+//         }
 
-        res.status(200).json({status: 'success', data: {obj}});
-    } catch(err) {
-        res.status(404).json({status: 'failure', message: err});
-    }
-};
+//         res.status(200).json({status: 'success', data: {obj}});
+//     } catch(err) {
+//         res.status(404).json({status: 'failure', message: err});
+//     }
+// };

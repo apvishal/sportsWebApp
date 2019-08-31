@@ -17,15 +17,22 @@ router.route('/users').get(authController.getUsers);
 // router for sports
 router.route('/sports').get(authController.isLoggedIn, sportsController.getSports);
 
+router.use(authController.isLoggedIn);
 // router for mlb
-router
-    .route('/mlb')
-    .get(mlbController.getAllTeams)
-    .post(mlbController.createNewTeam);
+// router
+//     .route('/mlb')
+//     .get(mlbController.getAllTeams)
+//     .post(mlbController.createNewTeam);
+
+// router.use(sportsController.verifySport);
+
+router.route('/:sport')
+.get(sportsController.verifySport, sportsController.getAllTeams)
+.post(authController.restricted('admin'),sportsController.createNewTeam);
 
 router
-    .route('/mlb/:id')
-    .get(mlbController.getTeam)
-    .delete(mlbController.deleteTeam);
+    .route('/:sport/:id')
+    .get(sportsController.getTeam)
+    .delete(sportsController.deleteTeam);
 
 module.exports = router;

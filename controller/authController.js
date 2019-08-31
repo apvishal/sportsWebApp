@@ -1,5 +1,4 @@
 const User = require('./../model/userModel');
-const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const { promisify } = require('util');
 
@@ -8,18 +7,17 @@ const grantToken = id => {
         expiresIn:process.env.JWT_EXPIRES
     });
 };
-const encryptPassword = async (pw) => {
-    return await bcrypt.hash(pw, 12);
-};
+
 exports.signup = async (req,res,next) => {
     try {
-        const encryptedPW = await encryptPassword(req.body.password);
         // create a new user and push to database...
         const newUser = await User.create({
             firstName : req.body.firstName,
             lastName : req.body.lastName,
-            password: encryptedPW,
-            email: req.body.email
+            password: req.body.password,
+            confirmPassword: req.body.confirmPassword,
+            email: req.body.email,
+            role: req.body.role
         });
         if (newUser) {
             return res.status(200).json({status:'success', data: {newUser}});
@@ -56,21 +54,43 @@ exports.getUsers = (req,res,next) => {
 exports.isLoggedIn = async(req,res,next) => {
     try {
 
+        if (!req.headers.authorization) {
+            return next(new Error("user is not logged in..."));
+        }
         // extract token
         const currentToken = req.headers.authorization.split(' ')[1];
 
         // check if token is valid...
         // await promisify(jwt.verify)(currentToken, process.env.JWT_SECRET);
+        let id = "";
         jwt.verify(currentToken, process.env.JWT_SECRET, function(err, decoded) {
+            id = decoded.id;
             if (err) {
                 return next(err);
             }
         });
-
+        console.log("EXTRACTED ID = " + id);
+        // get the user for use in the next middlewares...
+        const currentUser = await User.findById(id);
+        if (!currentUser) {
+            return next("ERROR NO SUCH USER");
+        }
+        req.user = currentUser;
+        
         next();
 
     } catch(err) {
         next(err);
 
     }
+};
+
+exports.restricted = (...roles) => {
+    return (req,res,next) => {
+        if (!roles.includes(req.user.role)) {
+            return next(new Error("you are not authroized to perform this action"));
+        }
+        next();    
+    }
+
 };
